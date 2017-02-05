@@ -1,0 +1,26 @@
+Version 1.0 -> 2.0 ————————————————————————————————————————————————————————————
+
+Minor fixes in the goals (just rephrasing).
+
+The requirement R11f has been reviewed clarifying that the user should not have any other session opened when a car is reserved.
+
+The Alloy models have been added directly into the document instead of keeping them as separate files.
+
+The car’s state chart has been changed as the state ‘reservable’ has been changed in ‘not reserved’ and ‘not reservable’ in ‘reserved’. The nodes have been labeled accordingly.
+
+Added the tools used and the hours of work.
+
+
+Version 2.0 -> 2.1 ————————————————————————————————————————————————————————————
+
+In the latter version it is the car that autonomously sends the most up-to-date data and the system stores them with a timestamp associated.
+See requirements R17f R19f R20f.
+
+The requirement R30f has been modified, when a transaction request is triggered, our system sets the user as not owing and sets him(her) back to not owing only when the payment system provides a positive feedback. Our system does not frequently query the payment system (to set the user as not owing) anymore.
+
+The requirement R31n is consequently useless and has been deleted then.
+
+
+Version 2.1 -> 3.0 ————————————————————————————————————————————————————————————
+
+The assumption A|g01 has been clarified and made tighter (and stronger) in order to supply the management of the exceptions and data management.

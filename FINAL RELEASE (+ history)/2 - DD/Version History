@@ -1,0 +1,15 @@
+Version 1.0 -> 2.0 ————————————————————————————————————————————————————————————
+
+The Session Manager package has been been replaced by the Session Manager component that an exploded view is provided later in the document.
+
+Changed the components’ organization.
+
+Consequently other minor fixes and updates have been done in
+ - DB logic view
+ - Deployment view
+ - Sequence diagrams
+ - Interfaces
+
+Finally, the correspondences between UX diagrams and the various components of the system have been added.
+
+Light reorganization of the document structure.
